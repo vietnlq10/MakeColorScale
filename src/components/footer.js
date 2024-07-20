@@ -19,8 +19,9 @@ const FooterSection = styled.div`
 
 const Footer = () => (
   <FooterSection>
-    <a href='https://hihayk.github.io/scale'><h1>Scale</h1></a>&nbsp; · &nbsp;made by <a href='http://hihayk.com' target='_blank' rel='noopener noreferrer'>Hayk</a>&nbsp; · &nbsp;<a href='https://github.com/hihayk/scale' target='_blank' rel='noopener noreferrer'>GitHub</a>
-    &nbsp; · &nbsp;<Link to="/gallery">Gallery</Link>
+    <a href='https://vietnlq10.github.io/MakeColorScale'><h1>Make Color Scale</h1></a>
+	&nbsp; · &nbsp; rebuild by <a href='https://www.linkedin.com/in/vietnlq' target='_blank' rel='noopener noreferrer'>Nguyen Viet</a>
+	&nbsp; · &nbsp;<a href='https://tgmresearch.com/' target='_blank' rel='noopener noreferrer'>TGM Research</a>
   </FooterSection>
 )
 

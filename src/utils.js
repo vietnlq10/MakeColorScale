@@ -3,7 +3,7 @@ import Color from "color"
 export const numberToHex = (number) => '#' + number
 export const hexToNumber = (number) => number.substr(1, number.length)
 
-export const initialColor = '1D9A6C'
+export const initialColor = '501ab0'
 
 export const defaultState = {
   darkColorsAmount: 4,

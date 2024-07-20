@@ -1,8 +1,8 @@
 {
-  "name": "scale",
+  "name": "MakeColorScale",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hihayk.github.io/scale",
+  "homepage": "https://vietnlq10.github.io/MakeColorScale",
   "dependencies": {
     "color": "^3.0.0",
     "gh-pages": "^1.2.0",

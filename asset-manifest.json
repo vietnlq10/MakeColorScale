@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MakeColorScale/static/css/main.1b792c60.css",
+    "main.js": "/MakeColorScale/static/js/main.7080d109.js",
+    "index.html": "/MakeColorScale/index.html",
+    "main.1b792c60.css.map": "/MakeColorScale/static/css/main.1b792c60.css.map",
+    "main.7080d109.js.map": "/MakeColorScale/static/js/main.7080d109.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b792c60.css",
+    "static/js/main.7080d109.js"
+  ]
+}

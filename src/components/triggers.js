@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from './button'
+import { Link } from 'react-router-dom'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import Color from 'color'
 import { numberToHex } from '../utils.js'
@@ -143,7 +144,7 @@ const Triggers = ({
         
       </ButtonsRow><br></br>
       <GalleryButton>
-        <div ><a className='button' href='/gallery'>Gallery</a></div>
+        <div ><Link to="/gallery"><a className='button' href='/gallery'>Gallery</a></Link></div>
       </GalleryButton>
       
     </React.Fragment>

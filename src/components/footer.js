@@ -7,10 +7,11 @@ const FooterSection = styled.div`
     color: inherit;
     text-underline-position: under;
     text-decoration-color: var(--bodyDimmed);
+    font-size: 11px;
   }
 
   h1 {
-    font-size: inherit;
+    font-size: 11px;
     line-height: inherit;
     font-weight: normal;
     display: inline-block;
@@ -19,9 +20,9 @@ const FooterSection = styled.div`
 
 const Footer = () => (
   <FooterSection>
-    <a href='https://vietnlq10.github.io/MakeColorScale'><h1>Make Color Scale</h1></a>
-	&nbsp; · &nbsp; rebuild by <a href='https://www.linkedin.com/in/vietnlq' target='_blank' rel='noopener noreferrer'>Nguyen Viet</a>
-	&nbsp; · &nbsp;<a href='https://tgmresearch.com/' target='_blank' rel='noopener noreferrer'>TGM Research</a>
+    {/* <div className='left'><a href='/gallery'><h1>Gallery</h1></a></div> */}
+    <h1 className='right'>Developed by <a href='https://www.linkedin.com/in/vietnlq' target='_blank' rel='noopener noreferrer'>Nguyen Viet</a></h1>
+	{/* &nbsp; · &nbsp;<a href='https://tgmresearch.com/' target='_blank' rel='noopener noreferrer'>TGM Research</a> */}
   </FooterSection>
 )
 

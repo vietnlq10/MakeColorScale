@@ -74,10 +74,10 @@ const getColorsList = (colorsAmount, colorsShiftAmount, mixColor, rotate, satura
 const GalleryApp = () => (
   <GalleryWrapper>
     <GalleryHeader>
-      <Link to="/">scale/</Link>gallery
+      <Link to="/">Home/</Link>Gallery
 
       <SubmitLink
-        href="https://hayk15.typeform.com/to/mVHrni"
+        href=""
         data-mode="drawer_right"
         data-hide-headers={true}
         data-hide-footer={true}
@@ -92,7 +92,7 @@ const GalleryApp = () => (
 
       return (
         <GalleryItem color={numberToHex(getColorsObject())}>
-          <a href={`https://hihayk.github.io/scale/${value.scaleValue}`}>
+          <a href={`https://vietnlq10.github.io/MakeColorScale/${value.scaleValue}`}>
             <ColorBlocksRow disabled>
               {getColorsList(getColorsObject().darkColorsAmount, getColorsObject().darkestAmount, 'black', getColorsObject().darkColorsMixRotate, getColorsObject().darkSaturation, value).reverse().map((color, index) => (
                 <ColorBlock style={{ background: color }} hasValidColor={isValidHex(numberToHex(getColorsObject().mainColor))} color={color} key={index} />

@@ -6,17 +6,17 @@ export const hexToNumber = (number) => number.substr(1, number.length)
 export const initialColor = '501ab0'
 
 export const defaultState = {
-  darkColorsAmount: 4,
+  darkColorsAmount: 5,
   lightColorsAmount: 6,
 
-  darkestAmount: 50,
+  darkestAmount: 25,
   lightestAmount: 80,
 
-  darkColorsMixRotate: -51,
-  lightColorsMixRotate: 67,
+  darkColorsMixRotate: -30,
+  lightColorsMixRotate: -17,
 
   lightSaturation: 20,
-  darkSaturation: 14,
+  darkSaturation: 100,
 
   mainColor: initialColor,
   r: Color(numberToHex(initialColor)).rgb().red(),

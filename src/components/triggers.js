@@ -25,7 +25,27 @@ const ButtonsRow = styled.div`
     }
   }
 `
+const GalleryButton = styled.div`
+  a {
+    color: inherit;
+    text-underline-position: under;
+    text-decoration-color: var(--bodyDimmed);
+    line-height: inherit;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a.button {
+    appearance: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: var(--bodyXDimmed);
+    padding: 0.4em 0.75em;
+    cursor: pointer;
+  }
 
+`
 const getSvg = (darkColors, mainColor, lightColors) => {
   const svgWidth = darkColors.length * 72 + 192 + lightColors.length * 72
   const darkRects = darkColors.map((color, index) => (
@@ -120,7 +140,12 @@ const Triggers = ({
 
         <Button onClick={() => randomState()}>Randomize all</Button>
         <Button onClick={() => randomColor()}>Randomize color</Button>
-      </ButtonsRow>
+        
+      </ButtonsRow><br></br>
+      <GalleryButton>
+        <div ><a className='button' href='/gallery'>Gallery</a></div>
+      </GalleryButton>
+      
     </React.Fragment>
   )
 }

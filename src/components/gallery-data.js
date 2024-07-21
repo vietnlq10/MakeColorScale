@@ -1,13 +1,28 @@
 export const galleryData = [
   {
+    scaleValue: '#5/6/25/80/-30/-17/20/100/501ab0/80/26/176',
+    authorName: 'TGM 1',
+    authorLink: 'https://vietnlq10.github.io/MakeColorScale',
+  },
+  {
+    scaleValue: '#2/10/22/43/50/142/-12/-33/F61479/246/20/121/',
+    authorName: 'TGM 2',
+    authorLink: 'https://vietnlq10.github.io/MakeColorScale',
+  },
+  {
+    scaleValue: '#4/6/32/61/-17/67/20/7/d31d50/211/29/80',
+    authorName: 'TGM 3',
+    authorLink: 'https://vietnlq10.github.io/MakeColorScale',
+  },
+  {
     scaleValue: '#4/4/54/86/103/30/-44/14/EEA96E/238/169/110',
-    authorName: 'Hayk',
-    authorLink: 'https://hayk.design',
+    authorName: 'Hayk 1',
+    authorLink: 'https://vietnlq10.github.io/MakeColorScale',
   },
   {
     scaleValue: '#8/0/0/0/-53/-193/0/-100/0098FF/0/152/255',
-    authorName: 'Hayk',
-    authorLink: 'https://hayk.design',
+    authorName: 'Hayk 2',
+    authorLink: 'https://vietnlq10.github.io/MakeColorScale',
   },
   {
     scaleValue: '#4/6/62/91/0/17/-36/14/3E83FF/62/131/255',

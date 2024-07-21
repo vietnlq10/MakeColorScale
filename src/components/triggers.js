@@ -143,6 +143,7 @@ const Triggers = ({
         <Button onClick={() => randomColor()}>Randomize color</Button>
         
       </ButtonsRow><br></br>
+
       {/* <GalleryButton>
         <div ><Link to="/gallery"><a className='button' href='/gallery'>Gallery</a></Link></div>
       </GalleryButton> */}

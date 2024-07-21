@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MakeColorScale/static/css/main.1b792c60.css",
-    "main.js": "/MakeColorScale/static/js/main.90803c33.js",
+    "main.js": "/MakeColorScale/static/js/main.3c7b0a9b.js",
     "index.html": "/MakeColorScale/index.html",
     "main.1b792c60.css.map": "/MakeColorScale/static/css/main.1b792c60.css.map",
-    "main.90803c33.js.map": "/MakeColorScale/static/js/main.90803c33.js.map"
+    "main.3c7b0a9b.js.map": "/MakeColorScale/static/js/main.3c7b0a9b.js.map"
   },
   "entrypoints": [
     "static/css/main.1b792c60.css",
-    "static/js/main.90803c33.js"
+    "static/js/main.3c7b0a9b.js"
   ]
 }

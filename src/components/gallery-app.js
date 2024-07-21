@@ -6,9 +6,10 @@ import { galleryData } from './gallery-data'
 import { hashToObject, numberToHex, errorColor, isValidHex } from '../utils'
 import ColorBlocksRow from './color-blocks-row'
 import ColorBlock from './color-block'
+import Header from './header.js'
 
 const GalleryWrapper = styled.div`
-  padding: 80px;
+  padding: 40px 80px;
 
   @media (max-width: 720px) {
     padding: 32px;
@@ -36,7 +37,7 @@ const GalleryHeader = styled.header`
   line-height: 34px;
   border-bottom: 1px solid #ddd;
   width: 100%;
-  padding: calc(50vh - 240px) 0 80px 0;
+  // padding: calc(50vh - 240px) 0 80px 0;
   color: #222;
   display: flex;
 
@@ -53,6 +54,7 @@ const GalleryHeader = styled.header`
 
 const SubmitLink = styled.a`
   margin-left: auto;
+  display:none;
 `
 
 const getColorsList = (colorsAmount, colorsShiftAmount, mixColor, rotate, saturation, colorsObject) => {
@@ -73,20 +75,8 @@ const getColorsList = (colorsAmount, colorsShiftAmount, mixColor, rotate, satura
 
 const GalleryApp = () => (
   <GalleryWrapper>
-    <GalleryHeader>
-      <Link to="/">Home/</Link>Gallery
-
-      <SubmitLink
-        href=""
-        data-mode="drawer_right"
-        data-hide-headers={true}
-        data-hide-footer={true}
-        data-submit-close-delay="5"
-        className="typeform-share"
-      >
-        +submit
-      </SubmitLink>
-    </GalleryHeader>
+    <Header/>
+    
     {Object.entries(galleryData).map(([key, value]) => {
       const getColorsObject = () => hashToObject(value.scaleValue)
 

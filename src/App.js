@@ -3,6 +3,7 @@ import './App.css'
 import Color from 'color'
 import styled from 'styled-components'
 import DynamicInput from './components/dynamic-input.js'
+import Header from './components/header.js'
 import Footer from './components/footer.js'
 import { isValidHex, numberToHex, hexToNumber, errorColor, defaultState, getColorsList } from './utils.js'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
@@ -29,7 +30,7 @@ const ColorsSection = styled.div`
 `
 
 const TopSection = styled.div`
-  flex: 1;
+  flex: 0;
   display: flex;
   align-items: center;
 `
@@ -272,6 +273,7 @@ const ScaleApp = () => {
   
   return (
     <MainWrapper>
+      <Header/>
       <TopSection>
         <ColorsSection>
           <GlobalConfigSection>
